@@ -43,7 +43,7 @@ Modeling and Prediction
 # 'PARPRES']]
 
 #Fewer predictors
-predictors = data_clean[['marever1', 'ALCEVR1']]
+predictors = data_clean[['marever1', 'ALCEVR1', 'cigavail']]
 
 targets = data_clean.TREG1
 
